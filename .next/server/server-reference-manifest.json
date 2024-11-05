@@ -1,0 +1,38 @@
+{
+  "node": {
+    "03b241ba8ff91a4515e9550cc2db4bf255b4cb05": {
+      "workers": {
+        "app/[locale]/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Farham%2FDesktop%2Ftest%2Fapp%2F%5Blocale%5D%2Flogin%2Fpage.tsx%22%2C%5B%22%24%24ACTION_1%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_7%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/login/page": "rsc"
+      }
+    },
+    "2d41f71beed937ec23aedfb7ea4b133d85410edc": {
+      "workers": {
+        "app/[locale]/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Farham%2FDesktop%2Ftest%2Fapp%2F%5Blocale%5D%2Flogin%2Fpage.tsx%22%2C%5B%22%24%24ACTION_1%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_7%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/login/page": "rsc"
+      }
+    },
+    "327026c98aa2b4945a14836f91f95296541f5c71": {
+      "workers": {
+        "app/[locale]/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Farham%2FDesktop%2Ftest%2Fapp%2F%5Blocale%5D%2Flogin%2Fpage.tsx%22%2C%5B%22%24%24ACTION_1%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_7%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/login/page": "rsc"
+      }
+    },
+    "9fe42568316da983374cb2854ac71771795b9050": {
+      "workers": {
+        "app/[locale]/login/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Farham%2FDesktop%2Ftest%2Fapp%2F%5Blocale%5D%2Flogin%2Fpage.tsx%22%2C%5B%22%24%24ACTION_1%22%2C%22%24%24ACTION_5%22%2C%22%24%24ACTION_3%22%2C%22%24%24ACTION_7%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/login/page": "rsc"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "tNvTS0J0K9AUWvId4oWSxuEWdaIjvxQuvP1MA467Bdo="
+}
