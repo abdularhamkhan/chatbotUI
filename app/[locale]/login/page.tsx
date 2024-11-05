@@ -20,7 +20,7 @@ export default async function Login({
   searchParams: { message: string }
 }) {
   const cookieStore = cookies()
-  const supabase = createServerClient<Database>(
+  const supabase = createClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
