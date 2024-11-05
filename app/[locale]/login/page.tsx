@@ -20,7 +20,7 @@ export default async function Login({
   searchParams: { message: string }
 }) {
   const cookieStore = cookies()
-  const supabase = createClient<Database>(
+  const supabase = createServerClient<Database>(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
     process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
     {
@@ -83,7 +83,7 @@ export default async function Login({
 
   const getEnvVarOrEdgeConfigValue = async (name: string) => {
     "use server"
-    if (process.env.SUPABASE_SERVICE_ROLE_KEY) {
+    if (process.env.EDGE_CONFIG) {
       return await get<string>(name)
     }
 
