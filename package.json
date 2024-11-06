@@ -9,6 +9,7 @@
     "prepare": "husky install",
     "clean": "npm run lint:fix && npm run format:write",
     "dev": "next dev",
+    "prebuild": "npm run db-types",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",

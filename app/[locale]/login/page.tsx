@@ -58,7 +58,7 @@ export default async function Login({
 
     const { data, error } = await supabase.auth.signInWithPassword({
       email,
-      password
+      password,
     })
 
     if (error) {
